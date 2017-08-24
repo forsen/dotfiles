@@ -1,0 +1,10 @@
+set -U XDG_DESKTOP_DIR $HOME/Desktop
+set -U XDG_DOWNLOAD_DIR $HOME/Downloads
+set -U XDG_TEMPLATES_DIR $HOME/Templates
+set -U XDG_PUBLICSHARE_DIR $HOME/Public
+set -U XDG_DOCUMENTS_DIR $HOME/Documents
+set -U XDG_MUSIC_DIR $HOME/Music
+set -U XDG_PICTURES_DIR $HOME/Pictures
+set -U XDG_VIDEOS_DIR $HOME/Videos
+set -U XDG_CONFIG_DIR $HOME/.config
+
