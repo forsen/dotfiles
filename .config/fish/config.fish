@@ -6,5 +6,6 @@ set -U XDG_DOCUMENTS_DIR $HOME/Documents
 set -U XDG_MUSIC_DIR $HOME/Music
 set -U XDG_PICTURES_DIR $HOME/Pictures
 set -U XDG_VIDEOS_DIR $HOME/Videos
-set -U XDG_CONFIG_DIR $HOME/.config
+set -U XDG_CONFIG_DIR /etc
+set -U XDG_CONFIG_HOME $HOME/.config
 
