@@ -13,5 +13,8 @@ tar czf "$HOME/backup-$(date +%Y-%m-%d).tar.gz" \
 	-C "$HOME" \
 	".ssh/" \
 	".local/share/fish/fish_history" \
+	".local/share/fonts/" \
+	"src/" \
+	".local/share/bin" \
 	-C "$HOME/.local/share/bin/" \
 	"dot-bootstrap"\
