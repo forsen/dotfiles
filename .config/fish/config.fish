@@ -17,3 +17,6 @@ set -U ICEAUTHORITY $XDG_RUNTIME_DIR/ICEauthority
 set -x XAUTHORITY $XDG_RUNTIME_DIR/Xauthority
 set -U XINITRC $XDG_CONFIG_HOME/X11/xinitrc
 
+
+## PATH
+set PATH $HOME/.local/share/bin $PATH
