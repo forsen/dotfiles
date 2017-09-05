@@ -19,4 +19,8 @@ set -U XINITRC $XDG_CONFIG_HOME/X11/xinitrc
 
 
 ## PATH
+set PATH $HOME/.local/bin $PATH
 set PATH $HOME/.local/share/bin $PATH
+set PATH $HOME/git/bob $PATH
+set PATH $HOME/git/tools/bin $PATH
+set PATH $HOME/opt/node/bin $PATH
