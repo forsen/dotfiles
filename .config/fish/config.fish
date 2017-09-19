@@ -24,3 +24,11 @@ set PATH $HOME/.local/share/bin $PATH
 set PATH $HOME/git/bob $PATH
 set PATH $HOME/git/tools/bin $PATH
 set PATH $HOME/opt/node/bin $PATH
+
+
+## Fix github version
+set PATH /opt/rh/rh-git29/root/usr/bin $PATH
+set MANPATH /opt/rh/rh-git29/root/usr/share/man:$MANPATH
+set -x PERL5LIB "/opt/rh/rh-git29/root/usr/share/perl5/vendor_perl"
+set -x LD_LIBRARY_PATH "/opt/rh/httpd24/root/usr/lib64"
+
