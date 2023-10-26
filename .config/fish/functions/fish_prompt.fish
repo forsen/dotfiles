@@ -1,1 +1,0 @@
-/home/sb1a.sparebank1.no/e502359/.local/share/omf/themes/bobthefish/fish_prompt.fish
