@@ -21,3 +21,7 @@
 
     $XDG_CONFIG_HOME/tmux: config/tmux
 
+    ~/Library/Application Support/iTerm2/DynamicProfiles:
+      path: config/iTerm2/**
+      glob: true
+      create: true
