@@ -10,6 +10,8 @@
     command: source ./config/fish/config.fish
   - description: Install apps and tools with Homebrew
     command: brew bundle install --file=Brewfile
+  - description: Install custom fonts
+    command: cp fonts/* ~/Library/Fonts/
     
 - link:
     $XDG_CONFIG_HOME/fish:
@@ -18,8 +20,4 @@
       create: true
 
     $XDG_CONFIG_HOME/tmux: config/tmux
-
-    ~/Library/Fonts:
-      path: fonts/**
-      glob: true
 
