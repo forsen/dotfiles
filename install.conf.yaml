@@ -18,3 +18,8 @@
       create: true
 
     $XDG_CONFIG_HOME/tmux: config/tmux
+
+    ~/Library/Fonts:
+      path: fonts/**
+      glob: true
+
