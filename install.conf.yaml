@@ -2,9 +2,9 @@
     link:
       relink: true
       create: true
-      
+
 - clean: ['~', '$XDG_CONFIG_HOME']
-  
+
 - shell:
   - description: Set XDG environmental variables
     command: source ./config/fish/config.fish
@@ -12,7 +12,9 @@
     command: brew bundle install --file=Brewfile
   - description: Install custom fonts
     command: cp fonts/* ~/Library/Fonts/
-    
+  - description: Install Norwegian Dvorak keyboard layout
+    command: cp files/NorwegianDvorak.keylayout ~/Library/Keyboard\ Layouts/NorwegionDvorak.keylayout
+
 - link:
     $XDG_CONFIG_HOME/fish:
       path: config/fish/**
@@ -25,3 +27,4 @@
       path: config/iTerm2/**
       glob: true
       create: true
+
