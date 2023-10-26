@@ -14,3 +14,5 @@
       path: config/fish/**
       glob: true
       create: true
+
+    $XDG_CONFIG_HOME/tmux: config/tmux
