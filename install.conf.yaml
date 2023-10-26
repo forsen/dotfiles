@@ -1,0 +1,16 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+      
+- clean: ['~', '$XDG_CONFIG_HOME']
+  
+- shell:
+  - description: Set XDG environmental variables
+    command: source ./config/fish/config.fish
+    
+- link:
+    $XDG_CONFIG_HOME/fish:
+      path: config/fish/**
+      glob: true
+      create: true
