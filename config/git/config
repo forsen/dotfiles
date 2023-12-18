@@ -1,0 +1,41 @@
+# This is Git's per-user configuration file.
+[user]
+	email = erik@forsen.no
+	name = Erik Haider Forsén
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC9bEeD+pBi4Kttxo8ol3ZNdPtdYtfkc4sVVQGR0dcCX
+
+[core]
+	autocrlf = input
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+
+
+[includeIf "gitdir:vy/"]
+	path = ./config.vy
+
+[includeIf "gitdir:bekk/"]
+	path = ./config.bekk
+
+[gpg]
+	format = ssh
+	
+[gpg "ssh"]
+    program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+	
+[alias]
+	cob = "checkout -b"
+	cm = "commit"
+	s = "status"
+	rm-merged = !git branch --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" { print $1 }' | xargs -r git branch -D
+	sync = !git switch $(git main-branch) && git pull --prune && git rm-merged
+	main-branch = !git symbolic-ref refs/remotes/origin/HEAD | cut -d'/' -f4
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

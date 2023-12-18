@@ -23,6 +23,8 @@
 
     $XDG_CONFIG_HOME/tmux: config/tmux
 
+    $XDG_CONFIG_HOME/git: config/git
+
     ~/Library/Application Support/iTerm2/DynamicProfiles:
       path: config/iTerm2/**
       glob: true
