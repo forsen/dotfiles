@@ -8,7 +8,7 @@ brew "caddy"
 brew "glib"
 brew "circleci"
 brew "cmake"
-brew "cocoapods", link: false
+brew "cocoapods"
 brew "coreutils"
 brew "direnv"
 brew "folly"
@@ -34,7 +34,6 @@ brew "tmux"
 brew "watchman"
 
 cask "1password-cli"
-cask "cocoapods"
 cask "docker"
 cask "iterm2"
 cask "notion", args: { appdir: "~/Applications" }
