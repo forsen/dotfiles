@@ -1371,6 +1371,12 @@
         "options": {
           "full_name": "rapidapi"
         }
+      },
+      "temurin17": {
+        "version": "17.0.9,9",
+        "options": {
+          "full_name": "temurin17"
+        }
       }
     },
     "mas": {

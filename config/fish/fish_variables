@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export JAVA_HOME:/Library/Java/JavaVirtualMachines/temurin\x2d21\x2ejdk/Contents/Home
+SETUVAR --export JAVA_HOME:/Users/erik/Library/Java/JavaVirtualMachines/corretto\x2d17\x2e0\x2e9/Contents/Home
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr

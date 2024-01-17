@@ -40,7 +40,7 @@ cask "notion", args: { appdir: "~/Applications" }
 cask "rapidapi"
 cask "slack"
 cask "spotify"
-cask "temurin"
+cask "temurin17"
 
 mas "Amphetamine", id: 937984704        # Powerful keep-awake utility
 mas "Magnet", id: 441258766             # Organize your workspace
