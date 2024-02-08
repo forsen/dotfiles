@@ -37,6 +37,7 @@ cask "1password-cli"
 cask "docker"
 cask "iterm2"
 cask "notion", args: { appdir: "~/Applications" }
+cask "notion-calendar"
 cask "rapidapi"
 cask "slack"
 cask "spotify"
