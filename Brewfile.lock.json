@@ -8,10 +8,13 @@
         "revision": "a537114a3ccf20f557c2b9f67973deefd26e1181"
       },
       "homebrew/bundle": {
-        "revision": "04508211064f70ee9b475d1614e3612c15869888"
+        "revision": "b35fe8a3ac3dab5a52c62a281ad73b2b2947bd2e"
       },
       "homebrew/cask-versions": {
         "revision": "057d1202c4ac9d4059909260af8d13e20fbf8cab"
+      },
+      "oven-sh/bun": {
+        "revision": "4b3798bf9176a3d9cf9d5b96fd30d27631a5410b"
       }
     },
     "brew": {
@@ -1258,6 +1261,10 @@
             }
           }
         }
+      },
+      "oven-sh/bun/bun": {
+        "version": "1.1.12",
+        "bottle": false
       }
     },
     "cask": {
@@ -1295,7 +1302,7 @@
         }
       },
       "rapidapi": {
-        "version": "4.2.3",
+        "version": "4.2.4",
         "options": {
           "full_name": "rapidapi"
         }
@@ -1336,18 +1343,18 @@
       },
       "Paste": {
         "id": "967805235",
-        "version": "4.2.1"
+        "version": "4.3.0"
       },
       "Things": {
         "id": "904280696",
-        "version": "3.20.5"
+        "version": "3.20.6"
       }
     }
   },
   "system": {
     "macos": {
       "sonoma": {
-        "HOMEBREW_VERSION": "4.3.3",
+        "HOMEBREW_VERSION": "4.3.5",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",

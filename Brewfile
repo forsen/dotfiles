@@ -1,6 +1,7 @@
 tap "1password/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-versions"
+tap "oven-sh/bun"
 
 brew "caddy"
 brew "glib"
@@ -24,6 +25,7 @@ brew "speedtest-cli"
 brew "tfenv"
 brew "tmux"
 brew "watchman"
+brew "oven-sh/bun/bun"
 
 cask "1password-cli"
 cask "docker"
