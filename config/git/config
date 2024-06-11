@@ -11,7 +11,7 @@
 [init]
 	defaultBranch = main
 [commit]
-#	gpgsign = true
+	gpgsign = true
 
 
 [includeIf "gitdir:vy/"]
@@ -20,8 +20,11 @@
 [includeIf "gitdir:bekk/"]
 	path = ./config.bekk
 
+[includeIf "gitdir:obos/"]
+	path = ./config.obos 
+
 [gpg]
-#	format = ssh
+	format = ssh
 	
 [gpg "ssh"]
     program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
