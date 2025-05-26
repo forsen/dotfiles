@@ -26,6 +26,8 @@ brew "tfenv"
 brew "tmux"
 brew "watchman"
 brew "oven-sh/bun/bun"
+brew "azure-cli"
+brew "lazygit"
 
 cask "1password-cli"
 cask "docker"
