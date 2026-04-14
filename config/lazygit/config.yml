@@ -1,0 +1,15 @@
+customCommands:
+  - key: '!'
+    description: 'Run git alias!'
+    command: git {{index .PromptResponses 0}}
+    context: 'global'
+    prompts:
+      - type: 'input'
+        title: 'Command (git alias)'
+    output: terminal
+  - key: S
+    context: 'localBranches'
+    command: 'git sync'
+
+gui:
+  switchTabsWithPanelJumpKeys: true

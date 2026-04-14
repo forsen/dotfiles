@@ -21,8 +21,11 @@
       glob: true
       create: true
 
-    $XDG_CONFIG_HOME/git: config/git
-    $XDG_CONFIG_HOME/tmux: config/tmux
     $XDG_CONFIG_HOME/ghostty: config/ghostty
+    $XDG_CONFIG_HOME/git: config/git
+    $XDG_CONFIG_HOME/lazygit: config/lazygit
+    $XDG_CONFIG_HOME/nvim: config/nvim
+    $XDG_CONFIG_HOME/omf: config/omf
+    $XDG_CONFIG_HOME/tmux: config/tmux
 
     ~/.ssh/config: config/ssh/config

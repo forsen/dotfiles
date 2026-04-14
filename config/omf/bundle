@@ -1,0 +1,7 @@
+package bass
+package foreign-env
+package jump
+package nvm
+package rvm
+theme bobthefish
+theme default
