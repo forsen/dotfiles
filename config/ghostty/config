@@ -1,0 +1,9 @@
+font-family=Dank Mono
+font-size=16
+adjust-cell-height=10%
+command=/opt/homebrew/bin/tmux -u new -A -s main
+theme=nord
+#window-decoration=none
+#background-opacity=0.9
+
+keybind = global:opt+cmd+space=toggle_quick_terminal

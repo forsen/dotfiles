@@ -6,14 +6,14 @@
 - clean: ['~', '$XDG_CONFIG_HOME']
 
 - shell:
-  - description: Set XDG environmental variables
-    command: source ./config/fish/config.fish
-  - description: Install apps and tools with Homebrew
-    command: brew bundle install --file=Brewfile
-  - description: Install custom fonts
-    command: cp fonts/* ~/Library/Fonts/
-  - description: Install Norwegian Dvorak keyboard layout
-    command: cp files/NorwegianDvorak.keylayout ~/Library/Keyboard\ Layouts/NorwegionDvorak.keylayout
+    - description: Set XDG environmental variables
+      command: source ./config/fish/config.fish
+    - description: Install apps and tools with Homebrew
+      command: brew bundle install --file=Brewfile
+    - description: Install custom fonts
+      command: cp fonts/* ~/Library/Fonts/
+    - description: Install Norwegian Dvorak keyboard layout
+      command: cp files/NorwegianDvorak.keylayout ~/Library/Keyboard\ Layouts/NorwegionDvorak.keylayout
 
 - link:
     $XDG_CONFIG_HOME/fish:
@@ -21,13 +21,8 @@
       glob: true
       create: true
 
-    $XDG_CONFIG_HOME/tmux: config/tmux
-
     $XDG_CONFIG_HOME/git: config/git
-
-    ~/Library/Application Support/iTerm2/DynamicProfiles:
-      path: config/iTerm2/**
-      glob: true
-      create: true
+    $XDG_CONFIG_HOME/tmux: config/tmux
+    $XDG_CONFIG_HOME/ghostty: config/ghostty
 
     ~/.ssh/config: config/ssh/config
