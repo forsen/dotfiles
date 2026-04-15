@@ -6,4 +6,4 @@ theme=nord
 #window-decoration=none
 #background-opacity=0.9
 
-keybind = global:opt+cmd+space=toggle_quick_terminal
+confirm-close-surface=false
