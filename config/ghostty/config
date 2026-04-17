@@ -2,8 +2,9 @@ font-family=Dank Mono
 font-size=16
 adjust-cell-height=10%
 command=/opt/homebrew/bin/tmux -u new -A -s main
-theme=nord
+theme=Catppuccin Frappe
 #window-decoration=none
 #background-opacity=0.9
 
 confirm-close-surface=false
+gtk-single-instance=false

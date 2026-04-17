@@ -6,6 +6,8 @@
 - clean: ['~', '$XDG_CONFIG_HOME']
 
 - shell:
+    - description: Fetch all submodules
+      command: git submodule update --init --recursive
     - description: Set XDG environmental variables
       command: source ./config/fish/config.fish
     - description: Install apps and tools with Homebrew
