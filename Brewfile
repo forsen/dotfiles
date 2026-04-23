@@ -23,6 +23,7 @@ brew "watchman"
 brew "oven-sh/bun/bun"
 brew "azure-cli"
 brew "lazygit"
+brew "fzf"
 
 cask "1password-cli"
 cask "rapidapi"
