@@ -28,6 +28,7 @@ brew "fzf"
 cask "1password-cli"
 cask "rapidapi"
 cask "slack"
+cask "spacectl"
 
 mas "Amphetamine", id: 937984704        # Powerful keep-awake utility
 mas "Paste", id: 967805235              # A better way to copy and paste
