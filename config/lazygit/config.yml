@@ -13,3 +13,6 @@ customCommands:
 
 gui:
   switchTabsWithPanelJumpKeys: true
+
+services:
+  'udir.ghe.com': 'github:udir.ghe.com'
