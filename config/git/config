@@ -41,3 +41,9 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[credential "https://udir.ghe.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.udir.ghe.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

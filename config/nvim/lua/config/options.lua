@@ -5,12 +5,3 @@
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
 vim.g.loaded_python3_provider = 0
-
-vim.lsp.config["tofu_ls"] = {
-  cmd = { "tofu-ls", "serve" },
-  -- Base filetypes
-  filetypes = { "terraform", "terraform-vars" },
-  root_markers = { ".terraform", ".git", "main.tf" },
-}
-
-vim.lsp.enable("tofu_ls")
