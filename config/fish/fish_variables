@@ -3,4 +3,4 @@
 SETUVAR --export JAVA_HOME:/Library/Java/JavaVirtualMachines/temurin\x2d21\x2ejdk/Contents/Home
 SETUVAR --export TENV_AUTO_INSTALL:true
 SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/opt/homebrew/bin
+SETUVAR fish_user_paths:/opt/homebrew/share/google\x2dcloud\x2dsdk/bin\x1e/opt/homebrew/bin

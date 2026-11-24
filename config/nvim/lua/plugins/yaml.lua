@@ -37,6 +37,7 @@ return {
             schemas = {
               ["/Users/erik/git/obos/dx-github-infra/teams.schema.json"] = "/Users/erik/git/obos/dx-github-infra/teams/*",
               ["/Users/erik/git/obos/dx-github-infra/applications.schema.json"] = "/Users/erik/git/obos/dx-github-infra/applications/*",
+              ["/Users/erik/git/udir/grunnmur-vending/schemas/landingzone.schema.json"] = "/Users/erik/git/udir/grunnmur-vending/landingzones/*",
             },
           },
         },
