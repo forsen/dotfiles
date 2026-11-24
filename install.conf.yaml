@@ -8,14 +8,12 @@
 - shell:
     - description: Fetch all submodules
       command: git submodule update --init --recursive
-    - description: Set XDG environmental variables
-      command: source ./config/fish/config.fish
     - description: Install apps and tools with Homebrew
       command: brew bundle install --file=Brewfile
     - description: Install custom fonts
       command: cp fonts/* ~/Library/Fonts/
     - description: Install Norwegian Dvorak keyboard layout
-      command: cp files/NorwegianDvorak.keylayout ~/Library/Keyboard\ Layouts/NorwegionDvorak.keylayout
+      command: cp files/NorwegianDvorak.keylayout ~/Library/Keyboard\ Layouts/NorwegianDvorak.keylayout
 
 - link:
     $XDG_CONFIG_HOME/fish:
@@ -31,3 +29,4 @@
     $XDG_CONFIG_HOME/tmux: config/tmux
 
     ~/.ssh/config: config/ssh/config
+    ~/.hammerspoon/init.lua: config/hammerspoon/init.lua
